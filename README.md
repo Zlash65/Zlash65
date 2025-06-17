@@ -4,15 +4,6 @@ Backend & infrastructure engineer who loves simplifying complex problems with cl
 
 🚀 Over the last 8+ years, I’ve built and maintained production-grade systems for fast-growing startups – from designing payroll infra that processed ₹1B+ in transactions to migrating an entire company off Heroku to AWS and helping scale it to a Sequoia-backed unicorn.
 
-🛠️ I work with:
-- Python, FastAPI, Django, Flask, Frappe
-- JavaScript, Node.js, React.js, Vue.js
-- PostgreSQL, Redis, MongoDB, MariaDB, DynamoDB
-- Terraform, Docker, ECS Fargate, Lambda
-- CI/CD with GitHub Actions, Jenkins, Bitrise
-- Datadog, Metabase, Clay.com, Appsmith, Retool
-- Android Studio, Xcode, Jira, Confluence
-
 📈 I care about developer experience, real-world reliability, and continuous learning. I pick up new tools quickly and constantly look for ways to improve systems and team velocity.
 
 🧠 Currently exploring: LLM agent infra, AI-powered developer tools, async Python workflows, and more.
