@@ -100,3 +100,5 @@ I love getting lost in immersive worlds—whether in games, stories, or code.
 ---
 
 💬 I'm always up for solving meaningful problems. Let’s build something impactful together!
+
+![](https://komarev.com/ghpvc/?username=Zlash65)
