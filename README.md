@@ -84,7 +84,8 @@
 
 ### 📝 Blogs
 
-- 🤖 [Agentic AI Chatbot - Langchain + FastAPI + Streamlit](https://dev.to/zlash65/building-an-ai-chatbot-with-langchain-fastapi-streamlit-377m)
+- 📚 [RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit](https://dev.to/zlash65/building-a-rag-powered-pdf-chatbot-with-langchain-streamlit-and-faiss-9i9)
+- 🤖 [Agentic AI Chatbot (Multi-LLM) - Langchain + FastAPI + Streamlit](https://dev.to/zlash65/building-an-ai-chatbot-with-langchain-fastapi-streamlit-377m)
 - 🧪 [Gen-AI Dockerfile Generator using AWS Bedrock & Terraform](https://dev.to/zlash65/build-a-gen-ai-dockerfile-generator-with-aws-bedrock-lambda-and-terraform-17n8)
 - 🔧 [Self-hosted Jitsi Meet for Remote Teams](https://medium.com/@zlash65/setting-up-jitsi-meet-on-your-server-b29ca29ef345)
 
