@@ -84,18 +84,34 @@
 
 ### 📝 Blogs
 
-- 📚 [RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit](https://dev.to/zlash65/building-a-rag-powered-pdf-chatbot-with-langchain-streamlit-and-faiss-9i9)
+- 📚 [Refactor RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit + ChromaDB](https://dev.to/zlash65/refactoring-rag-pdfbot-modular-design-with-langchain-streamlit-and-chromadb-41fn)
+- 📚 [RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit + FAISS](https://dev.to/zlash65/building-a-rag-powered-pdf-chatbot-with-langchain-streamlit-and-faiss-9i9)
 - 🤖 [Agentic AI Chatbot (Multi-LLM) - Langchain + FastAPI + Streamlit](https://dev.to/zlash65/building-an-ai-chatbot-with-langchain-fastapi-streamlit-377m)
-- 🧪 [Gen-AI Dockerfile Generator using AWS Bedrock & Terraform](https://dev.to/zlash65/build-a-gen-ai-dockerfile-generator-with-aws-bedrock-lambda-and-terraform-17n8)
+- 🐳 [Gen-AI Dockerfile Generator using AWS Bedrock & Terraform](https://dev.to/zlash65/build-a-gen-ai-dockerfile-generator-with-aws-bedrock-lambda-and-terraform-17n8)
 - 🔧 [Self-hosted Jitsi Meet for Remote Teams](https://medium.com/@zlash65/setting-up-jitsi-meet-on-your-server-b29ca29ef345)
 
 ---
 
 ### 🚧 Projects & Highlights
 
+<details>
+<summary><b> 🧠 AI-powered Projects </b> (click to expand)</summary>
+
 - 🧠 [ML-powered Brain Tumor Detector (College Project)](https://youtu.be/yIQFmOheUiQ?si=L4EdW6kBeZ0L9vU-)
+- 📚 [Refactor RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit + ChromaDB](https://github.com/Zlash65/rag-bot-chroma)
+- 📚 [RAG PDF Chatbot (Multi-LLM) - Langchain + Streamlit + FAISS](https://github.com/Zlash65/rag-bot-basic)
+- 🤖 [Agentic AI Chatbot (Multi-LLM) - Langchain + Streamlit + FastAPI](https://github.com/Zlash65/agentic-ai-chatbot-example)
+- 🐳 [Gen-AI Dockerfile Generator using AWS Bedrock & Terraform](https://github.com/Zlash65/aws-bedrock-example)
+
+</details>
+
+<details>
+<summary><b> 🔌 Open Source Integrations </b> (click to expand)</summary>
+
 - 💬 [Kredily: Chat via Mattermost](https://kredily.com/reach)
 - 🎥 [Kredily: Video Conferencing via Jitsi - Demos](https://youtu.be/qoFQYvnWsoE?si=vbPj-dZFoF87f2EL)
+
+</details>
 
 <details>
 <summary><b>🌍 Open Source Contributions</b> (click to expand)</summary>
