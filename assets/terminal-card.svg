@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="330" viewBox="0 0 900 330" fill="none">
+  <defs>
+    <!-- Premium gradient background -->
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="900" y2="280" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0a0f0a"/>
+      <stop offset="0.5" stop-color="#0d1117"/>
+      <stop offset="1" stop-color="#0a100d"/>
+    </linearGradient>
+
+    <!-- Subtle green ambient glow -->
+    <radialGradient id="ambientGlow" cx="0.2" cy="0.3" r="0.8">
+      <stop offset="0" stop-color="#00FF41" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#00FF41" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Corner accent gradient -->
+    <linearGradient id="cornerAccent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#00FF41" stop-opacity="0.4"/>
+      <stop offset="1" stop-color="#00FF41" stop-opacity="0"/>
+    </linearGradient>
+
+    <!-- Text glow filter -->
+    <filter id="textGlow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Subtle scanline pattern -->
+    <pattern id="scanlines" patternUnits="userSpaceOnUse" width="4" height="4">
+      <rect width="4" height="2" fill="#00FF41" opacity="0.015"/>
+    </pattern>
+
+    <!-- Border glow -->
+    <filter id="borderGlow" x="-2%" y="-2%" width="104%" height="104%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Main container with rounded corners -->
+  <rect x="8" y="8" width="884" height="314" rx="16" fill="url(#bgGradient)"/>
+
+  <!-- Ambient glow overlay -->
+  <rect x="8" y="8" width="884" height="314" rx="16" fill="url(#ambientGlow)"/>
+
+  <!-- Scanline overlay -->
+  <rect x="8" y="8" width="884" height="314" rx="16" fill="url(#scanlines)"/>
+
+  <!-- Subtle border -->
+  <rect x="8" y="8" width="884" height="314" rx="16" fill="none" stroke="#00FF41" stroke-opacity="0.25" stroke-width="1" filter="url(#borderGlow)"/>
+
+  <!-- Title bar -->
+  <rect x="8" y="8" width="884" height="42" rx="16" fill="#080c08"/>
+  <rect x="8" y="34" width="884" height="16" fill="#080c08"/>
+
+  <!-- Window controls -->
+  <circle cx="32" cy="29" r="6" fill="#FF5F57" opacity="0.9"/>
+  <circle cx="54" cy="29" r="6" fill="#FEBC2E" opacity="0.9"/>
+  <circle cx="76" cy="29" r="6" fill="#28C840" opacity="0.9"/>
+
+  <!-- Title text -->
+  <text x="450" y="33" text-anchor="middle" font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Monaco, monospace" font-size="13" fill="#00FF41" opacity="0.7" letter-spacing="0.5">
+    ~/zlash65
+  </text>
+
+  <!-- Terminal content -->
+  <g font-family="'SF Mono', 'Fira Code', 'JetBrains Mono', Menlo, Monaco, monospace">
+
+    <!-- whoami command -->
+    <text x="44" y="95" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="95" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">whoami</text>
+    <text x="44" y="125" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Zarrar Shaikh</text>
+
+    <!-- role command -->
+    <text x="44" y="165" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="165" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">role</text>
+    <text x="44" y="195" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Senior DevOps / Backend / Platform / GenAI Engineer</text>
+
+    <!-- location command -->
+    <text x="44" y="235" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="235" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">location</text>
+    <text x="44" y="265" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Toronto, Canada</text>
+
+    <!-- Command prompt with blinking cursor -->
+    <text x="44" y="305" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="305" font-size="20" fill="#00FF41" filter="url(#textGlow)">|
+      <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+    </text>
+  </g>
+
+  <!-- Subtle horizontal line accent -->
+  <line x1="44" y1="140" x2="300" y2="140" stroke="#00FF41" stroke-opacity="0.1" stroke-width="1"/>
+</svg>
