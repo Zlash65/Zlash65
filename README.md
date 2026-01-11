@@ -1,7 +1,5 @@
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=120&section=header"/>
-
 <p align="center">
-<img src="assets/terminal-card.svg" width="1100" alt="Terminal profile card"/>
+<a href="https://zlash.xyz" target="_blank" rel="noopener noreferrer"><img src="assets/terminal-card.svg" width="1100" alt="Terminal profile card"/></a>
 </p>
 
 <p align="center">
@@ -339,22 +337,17 @@ Quick links:
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github_dark/0-profile-details.svg#gh-dark-mode-only" alt="Profile details (dark)"/>
-  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github_dark/3-stats.svg#gh-dark-mode-only" alt="Stats (dark)"/>
+  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/0-profile-details.svg#gh-light-mode-only" alt="Profile details (light)"/>
 </p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github_dark/1-repos-per-language.svg#gh-dark-mode-only" alt="Repos per language (dark)"/>
   <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github_dark/2-most-commit-language.svg#gh-dark-mode-only" alt="Most commit language (dark)"/>
-</p>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/0-profile-details.svg#gh-light-mode-only" alt="Profile details (light)"/>
-  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/3-stats.svg#gh-light-mode-only" alt="Stats (light)"/>
-</p>
-
-<p align="center">
   <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/1-repos-per-language.svg#gh-light-mode-only" alt="Repos per language (light)"/>
   <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/2-most-commit-language.svg#gh-light-mode-only" alt="Most commit language (light)"/>
 </p>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,100:00FF41&height=120&section=footer"/>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github_dark/3-stats.svg#gh-dark-mode-only" alt="Stats (dark)"/>
+  <img src="https://raw.githubusercontent.com/Zlash65/Zlash65/main/profile-summary-card-output/github/3-stats.svg#gh-light-mode-only" alt="Stats (light)"/>
+</p>
