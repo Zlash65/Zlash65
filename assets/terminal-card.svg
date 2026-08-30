@@ -80,16 +80,17 @@
     <!-- role command -->
     <text x="44" y="165" font-size="18" fill="#6e7681">$</text>
     <text x="64" y="165" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">role</text>
-    <text x="44" y="195" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Senior DevOps / Backend / Platform / GenAI Engineer</text>
+    <text x="44" y="195" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Founder of Reyndex</text>
+    <text x="44" y="220" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Senior Platform / Backend / DevOps Engineer</text>
 
     <!-- location command -->
-    <text x="44" y="235" font-size="18" fill="#6e7681">$</text>
-    <text x="64" y="235" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">location</text>
-    <text x="44" y="265" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Toronto, Canada</text>
+    <text x="44" y="250" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="250" font-size="18" fill="#00FF41" filter="url(#textGlow)" opacity="0.9">location</text>
+    <text x="44" y="275" font-size="20" fill="#00FF41" filter="url(#textGlow)" font-weight="500">Toronto, Canada</text>
 
     <!-- Command prompt with blinking cursor -->
-    <text x="44" y="305" font-size="18" fill="#6e7681">$</text>
-    <text x="64" y="305" font-size="20" fill="#00FF41" filter="url(#textGlow)">|
+    <text x="44" y="310" font-size="18" fill="#6e7681">$</text>
+    <text x="64" y="310" font-size="20" fill="#00FF41" filter="url(#textGlow)">|
       <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
     </text>
   </g>

@@ -1,11 +1,11 @@
 <p align="center">
-<a href="https://zlash.xyz" target="_blank" rel="noopener noreferrer"><img src="assets/terminal-card.svg" width="1100" alt="Terminal profile card"/></a>
+<a href="https://zlash.space" target="_blank" rel="noopener noreferrer"><img src="assets/terminal-card.svg" width="1100" alt="Terminal profile card"/></a>
 </p>
 
 <p align="center">
 <a href="https://www.linkedin.com/in/zlash65"><img src="https://img.shields.io/badge/LinkedIn-zlash65-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn zlash65"/></a>
 <a href="https://github.com/Zlash65"><img src="https://img.shields.io/badge/GitHub-Zlash65-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/></a>
-<a href="https://zlash.xyz"><img src="https://img.shields.io/badge/Portfolio-zlash.xyz-667eea?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio"/></a>
+<a href="https://zlash.space"><img src="https://img.shields.io/badge/Portfolio-zlash.space-667eea?style=for-the-badge&logo=safari&logoColor=white" alt="Portfolio"/></a>
 <a href="mailto:zarrar65@gmail.com"><img src="https://img.shields.io/badge/Email-zarrar65%40gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/></a>
 </p>
 
@@ -16,16 +16,49 @@
 </p>
 
 <p align="center">
-<img src="assets/metrics-pills.svg" alt="8+ years Experience · ₹1B+ Transactions · $72K+/yr Cost Saved · 70% Docker Reduction"/>
+<img src="assets/metrics-pills.svg" alt="9+ years Experience · ₹1B+ Transactions · $75K+/yr Cost Saved · 70% Docker Reduction · 5K+ MCP Downloads"/>
+</p>
+
+<p align="center">
+Senior platform, backend &amp; DevOps engineer with 9+ years building production systems and cloud infrastructure
+</p>
+
+<p align="center">
+Founder of <a href="https://www.reyndex.com"><b>Reyndex</b></a>
 </p>
 
 <p align="center">Open to local + global remote opportunities</p>
 
-<p align="center"><b>Open to DevOps · SRE · Backend · Platform · Infrastructure · GenAI roles.</b></p>
+<p align="center"><b>Open to Platform · Backend · DevOps · SRE · Infrastructure · Full-Stack · Founding Engineer · Production AI / GenAI roles.</b></p>
+
+---
+
+## Building Reyndex
+
+<table>
+<tr>
+<td width="18%" align="center" valign="middle">
+  <a href="https://www.reyndex.com"><img src="assets/reyndex-logo-tile.svg" width="112" alt="Reyndex logo"/></a>
+</td>
+<td width="82%" valign="top">
+
+<h3><a href="https://www.reyndex.com">Reyndex</a> — Candidate email index</h3>
+
+<p>Reyndex connects to Gmail, identifies candidate emails, extracts structured profiles from PDF and DOCX resumes, and organizes them in a searchable table with filters, saved views, custom columns, formulas, direct editing, and AI enrichment.</p>
+
+<p>I built and operate the product end to end: product direction and UX; the Next.js and TypeScript application; a multi-tenant FastAPI and PostgreSQL backend; Celery queues on Amazon SQS; transactional outboxes and reconciliation; leased AI-enrichment runs with workspace concurrency controls; Stripe subscriptions and a credit ledger; OAuth-protected read-only MCP access; and Terraform-managed infrastructure, observability, worker autoscaling, reliability, and cost control.</p>
+
+<p><a href="https://www.reyndex.com"><b>Visit Reyndex →</b></a></p>
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Featured: Published MCP Servers
+
+<p align="center"><b>5K+ combined downloads across npm and PyPI</b></p>
 
 <table>
 <tr>
@@ -110,7 +143,11 @@ Quick links:
 <summary><b>Click to view highlights by company</b></summary>
 <br/>
 
-**Clipboard Health** (YC S17)
+**Reyndex**
+- **Production candidate email index** — built and launched for solo founders, small startup teams, and independent recruiters
+- **End-to-end product ownership** — full-stack application, multi-tenant backend, durable queues, AI workflows, billing, security, infrastructure, and SaaS operations
+
+**Clipboard Health** (YC W17)
 - **20+ services** — migrated from Heroku → AWS, zero downtime
 - **70% faster deploys** — 50+ min → under 15 min via pipeline optimization
 - **50% smaller images** — Docker optimization + multi-stage builds
@@ -121,15 +158,17 @@ Quick links:
 **Stealth Startup**
 - **$60K+/year saved** — cloud optimization + Terraform standardization
 - **70% smaller images** — Docker optimization + multi-stage builds
+- **~80% lower API latency** — approximately 500 ms → under 100 ms using an RDS read replica, read/write splitting, async FastAPI, and N+1 fixes
+- **Terraform migration + region move** — rebuilt production, staging, and demo infrastructure and moved production from us-east-1 to us-west-2 with minimal downtime
 - **GenAI CRM** — multi-source ingestion (Zoom, Granola, OpenPhone, Gmail, PostHog, Calendly)
-- **GenAI KB** — In-house CRM + Bedrock KB + OpenSearch vector store, Claude/ChatGPT queryable
+- **Production RAG + MCP** — Amazon Bedrock Knowledge Bases + OpenSearch Serverless, exposed to Claude Desktop and ChatGPT through Auth0-protected MCP
 - **Private Terraform modules** published (ECS, ElastiCache, RDS, VPC)
 
 **Kredily**
 - **₹1B+ transactions** at 99% uptime — fintech payroll platform
 
 **Open Source**
-- **MCP servers** published (npm + PyPI) with production deployment docs
+- **5K+ MCP downloads** — published PostgreSQL SSH and Amazon Bedrock Knowledge Base MCP servers on npm and PyPI with production deployment docs
 
 </details>
 
@@ -249,6 +288,35 @@ Quick links:
 </tr>
 </table>
 
+<h3 align="center">Current Platform &amp; Product Systems</h3>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Celery-37814A?style=flat-square&logo=celery&logoColor=white" alt="Celery"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Amazon_SQS-FF4F8B?style=flat-square&logo=amazonsqs&logoColor=white" alt="Amazon SQS"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/GCP-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Cloudflare_Workers-F38020?style=flat-square&logo=cloudflareworkers&logoColor=white" alt="Cloudflare Workers"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Railway-0B0D0E?style=flat-square&logo=railway&logoColor=white" alt="Railway"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Auth0-EB5424?style=flat-square&logo=auth0&logoColor=white" alt="Auth0"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/OAuth-3C3C3D?style=flat-square&logo=auth0&logoColor=white" alt="OAuth"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black" alt="Firebase"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Stripe-635BFF?style=flat-square&logo=stripe&logoColor=white" alt="Stripe"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white" alt="Supabase"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Neon-00E599?style=flat-square&logo=neon&logoColor=black" alt="Neon"/>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=flat-square" alt="LangGraph"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Dagster-654FF0?style=flat-square&logo=dagster&logoColor=white" alt="Dagster"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/n8n-EA4B71?style=flat-square&logo=n8n&logoColor=white" alt="n8n"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/PostHog-000000?style=flat-square&logo=posthog&logoColor=white" alt="PostHog"/>&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/shadcn%2Fui-000000?style=flat-square&logo=shadcnui&logoColor=white" alt="shadcn/ui"/>
+</p>
+
 <p align="center">
   <a href="https://www.datadoghq.com/"><img src="https://img.shields.io/badge/Datadog-632CA6?style=flat-square&logo=datadog&logoColor=white" alt="Datadog"/></a>&nbsp;&nbsp;
   <a href="https://www.metabase.com/"><img src="https://img.shields.io/badge/Metabase-509EE3?style=flat-square&logo=metabase&logoColor=white" alt="Metabase"/></a>&nbsp;&nbsp;
@@ -294,8 +362,8 @@ Quick links:
 <td width="50%" valign="top">
 
 <h3 align="center">Portfolio Website</h3>
-<p align="center"><i>Next.js + Tailwind</i></p>
-<p align="center"><a href="https://zlash.xyz">View Site</a> · <a href="https://github.com/Zlash65/zlash.xyz">GitHub</a></p>
+<p align="center"><i>React + Tailwind CSS + Framer Motion</i></p>
+<p align="center"><a href="https://zlash.space">View Site</a> · <a href="https://github.com/Zlash65/zlash.space">GitHub</a></p>
 
 </td>
 </tr>
